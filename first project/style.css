@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+/* ===============   Navigation bar style   ==============  */
+
+.navbar {
+    display: flex;
+    background-color: gray;
+    height: 69px;
+}
+
+.logo img {
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin:6px;
+}
+
+.nav-list a {
+    /* text-align: right; */
+    float: right;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 25px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list a:hover {
+    color: rgb(229, 220, 220);
+
+}
+
+
+/* ================ Main section style ================ */
+
+.container{
+    background: linear-gradient(35deg,transparent,darkblue);
+    width: 100%;
+    height: 100vh;
+}
